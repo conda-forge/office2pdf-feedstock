@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.0"
+  version: "0.8.0"
 
 package:
   name: office2pdf
@@ -15,7 +15,7 @@ source:
   # be fetched in an offline build, while the published crate resolves every
   # dependency from the registry and ships a Cargo.lock for a reproducible build.
   - url: https://static.crates.io/crates/office2pdf-cli/office2pdf-cli-${{ version }}.crate
-    sha256: 132fc22efe54ac3f6220fd2d423d3c8425bf109a4b0ec27304e688ff4f6da198
+    sha256: 5f4df0b1d555c09f18482c7d821f31042dd89ef36aa21a481d7af4250418e740
   # The published crate carries only the SPDX license string, not the license
   # text, so fetch LICENSE from the matching git tag.
   - url: https://raw.githubusercontent.com/developer0hye/office2pdf/v${{ version }}/LICENSE
